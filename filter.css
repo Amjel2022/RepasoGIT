@@ -1,0 +1,22 @@
+body {
+    background-color: aquamarine;
+}
+
+img {
+    /* filter: grayscale(100%); */
+    /* filter: blur(20px);  Efecto de bifuminado de imagenes */
+    /* Los filtros se pueden agregar a otros elementos tipo h1!  */
+    filter: hue-rotate(0deg);
+    transition: filter 2s;
+}
+
+iframe {
+    filter: hue-rotate(180deg);
+}
+
+img:hover {
+    /* filter: grayscale(0%)  (0% es la imagen original, 100% es escala de grises) */
+    /* filter: blur(0px); Bifuminar */
+    filter: hue-rotate(180deg);
+}
+
